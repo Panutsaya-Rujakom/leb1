@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <style>
+        .logo {}
+
+        ul.menu {
+            list-style-type: none;
+            margin: 0 1px;
+            padding: 100px;
+            overflow: hidden;
+            background-color: goldenrod;
+        }
+        ul.menu li {
+            background-color: goldenrod;
+            float: left;
+        }
+        ul.menu li {
+            display: block;
+            padding: 15px;
+            text-decoration: none;
+            color: honeydew;
+            font-size: 2px;
+            position: relative;
+            border-radius: 5px;
+        }
+        .body-on {
+            width: 100%;
+            position: absolute;
+        }
+        .body-on h3 {
+            margin-top: 2.4%;
+            background-color: rosybrown;
+            padding: 10px;
+            border-radius: 500px;
+        }
+        div.body-on h3 {
+            width: 100%;
+            height: 30px;
+
+        }
+        div#body-content {
+            background-color: khaki;
+            width: 100%;
+            border: 1px solid coral;
+            height: 1000px;
+        }
+        div#body-content {
+            position: absolute;
+            margin-top: 5%;
+        }
+        div.body-n1{
+            width: 100%;
+            margin-left: 50px;
+        }
+        div div.body-n1 div {
+            background-color: mistyrose;
+            width: 25%;
+            float: left;
+            margin: 10px;
+            border: 2px solid peru;
+            padding: 10px;
+            position: relative;
+        }
+        div div.body-n1 img {
+            width: 100%;
+            height: 350px;
+        }
+        div.content-head {
+            margin-left: 100%;
+        }
+    </style>
+</head>
+
+<body style="background-color: rgb(211, 211, 80);">
+    <header>
+        <nav>
+            <div class="container">
+                <ul class="menu">
+                    <li><button id="menu">Menu</button></li>
+                    <li><button id="menu">Logo</button></li>
+                    <li><button id="menu">User</button></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div>
+            <h1 style="text-align: center; background-color: rgb(211, 211, 80);">หมวดหมู่</h1>
+        </div>
+
+        <div class="body-m1">
+            <h3 style="font-size: 28px;">เครื่องดนตรีไทย<a style="float: right; color: #000;"
+                    href="">เครื่องดนตรีสากล</a></h3>
+        </div>
+
+        <div class="body-on">
+            <h3 style="text-align: center; background-color: navajowhite;">รายการ</h3>
+        </div>
+
+        <div id="body-content">
+
+            <div class="body-n1">
+                <div>
+                    <a href=""><img title="ชื่อเครื่องดนตรี" src="image/alto xylophone.png" alt="" width="500"  height="350"></a>
+                    <div>ชื่่อเครื่องดนตรี ระนาดเอก</div>
+                    <div>ข้อมูล เป็นเครื่องดนตรีไทย ประเภทตี</div>
+                </div>
+                <div>
+                    <a href=""><img title="ชื่อเครื่องดนตรี" src="image/guitar.jpg" alt="" width="500"  height="350"></a>
+                    <div>ชื่อเครื่องดนตรี กีตาร์</div>
+                    <div>ข้อมูล เป็นเครื่องดนตรีสากล ประเภทสาย</div>
+                </div>
+                <div>
+                    <a href=""><img title="ชื่อเครื่องดนตรี" src="image/violin.jpg" alt="" width="500"  height="350"></a>
+                    <div>ชื่อเครื่องดนตรี ไวโอลิน</div>
+                    <div>ข้อมูล เป็นเครื่องดนตรีสากล ประเภทสาย</div>
+                </div>
+                <div>
+                    <a href=""><img title="ชื่อเครื่องดนตรี" src="image/cornet.jpg" alt="" width="500"  height="350"></a>
+                    <div>ชื่อเครื่องดนตรี คอร์เน็ต</div>
+                    <div>ข้อมูล เป็นเครื่องดนตรีสากล ประเภทเป่า</div>
+                </div>
+                <div>
+                    <a href=""><img title="ชื่อเครื่องดนตรี" src="image/zither.jpg" alt="" width="500"  height="350"></a>
+                    <div>ชื่อเครื่องดนตรี จะเข้</div>
+                    <div>ข้อมูล เป็นเครื่องดนตรีไทย ประเภทดีด</div>
+                </div>
+                <div>
+                    <a href=""><img title="ชื่อเครื่องดนตรี" src="image/dulcimer.png" alt="" width="500"  height="350"></a>
+                    <div>ชื่อเครื่องดนตรี ขิม</div>
+                    <div>ข้อมูล เป็นเครื่องดนตรีไทย ประเภทตี</div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
+<style>
+    ul {
+        padding-top: 0px;
+        justify-content: center;
+        display: flex;
+        margin: 0px;
+        list-style-type: none;
+    }
+
+    li {
+        display: inline;
+        font-size: large;
+        font-weight: bold;
+        padding: 150px;
+        font-weight: bold;
+    }
+
+    #menu {
+        background-color: rgb(243, 247, 193);
+        color: rgb(100, 55, 3);
+        border-radius: 50px;
+        font-size: 25px;
+        width: 120px;
